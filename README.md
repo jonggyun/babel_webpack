@@ -32,6 +32,8 @@ babel7부터는 preset을 설치할 때 preset-es2015 이런 방식이 아닌 pr
 Babel로 변환된 소스라고 해도 모듈은 Webpack으로 번들링 해야하는 듯.
 
 ```
+npm install webpack webpack-cli --save-dev
+
 npm install babel-loader --save-dev
 ```
 
